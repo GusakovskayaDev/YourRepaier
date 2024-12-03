@@ -1,0 +1,6 @@
+@use 'button__mixins';
+
+.secondary__button {
+  @include button__mixins.button-style(transparent, black, 600);
+	border: 2px solid #FFC51F;
+}

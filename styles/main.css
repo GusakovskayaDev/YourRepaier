@@ -1,0 +1,128 @@
+:root{
+	--color-violet: #704E5F;
+	--color-black: black;
+	--color-gray: rgb(74, 74, 74);
+	--color-white: white;
+	--fontSize-50: 50px;
+	--fontSize-30: 30px;
+	--fontSize-24: 24px;
+	--fontSize-20: 20px;
+	--fontSize-18: 18px;
+	--fontSize-16: 16px;
+	--fontSize-14: 14px;
+	--fontWeight-800: 800;
+	--fontWeight-700: 700;
+	--fontWeight-600: 600;
+	--fontWeight-500: 500;
+	--background-yellow: #FFC51F;
+	--background-transparent: transparent;
+	--boxShadow-yellow: 0px 0px 10px #FFC51F;
+	--textShadow-black: 0px 0px 10px rgba(0, 0, 0, 0.2);
+}
+
+*{
+	padding: 0;
+  margin: 0;
+	box-sizing: border-box;
+}
+
+html{
+	scroll-behavior: smooth;
+}
+
+body{
+	padding-top: 100px;
+	font-family: montserrat, sans-serif;
+}
+
+/* hr{
+	margin: 40px;
+	padding: 0px;
+} */
+
+.txtCentered{
+	text-align: center;
+}
+
+.h1__gray{
+	font-size: var(--fontSize-50);
+	color: var(--color-gray);
+	font-weight: var(--fontWeight-800);
+}
+
+.h1__white{
+	font-size: var(--fontSize-50);
+	color: var(--color-white);
+	font-weight: var(--fontWeight-800);
+}
+
+.h3__black{
+	font-size: var(--fontSize-20);
+	color: var(--color-black);
+	font-weight: var(--fontWeight-800);
+}
+
+.buttonYellowBorder{
+	font-size: var(--fontSize-16);
+	color: var(--color-white);
+	font-weight: var(--fontWeight-600);
+	background-color: var(--background-transparent);
+
+	border: 2px solid #FFC51F;
+	border-radius: 4px;
+	padding: 15px 30px;
+	background-color: transparent;
+	cursor: pointer;
+	margin-bottom: 10px;
+}
+
+.buttonYellowBorder:hover{
+	box-shadow: var(--boxShadow-yellow);
+}
+
+.buttonYellow{
+	margin-top: 30px;
+	padding: 25px 30px;
+
+	font-size: var(--fontSize-16);
+	color: var(--color-gray);
+	font-weight: var(--fontWeight-600);
+	background-color: var(--background-yellow);
+
+	border: none;
+	border-radius: 4px;
+
+	cursor: pointer;
+}
+
+.buttonYellow:hover{
+	box-shadow: var(--boxShadow-yellow);
+}
+
+.buttonTransparent{
+	background-color: var(--color-white);
+	font-size: var(--fontSize-16);
+	border: 1px solid lightgray;
+	padding: 20px 30px;
+	cursor: pointer;
+	margin-bottom: 10px;
+}
+
+.buttonTransparent:hover{
+	box-shadow: 5px 5px 10px lightgray;
+}
+
+.allContainer{
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+	justify-content: center;
+}
+
+.container{
+	margin: 60px 0px;
+	max-width: 1400px;
+	width: 100%; 
+  overflow: auto;
+	padding: 0px 10px;
+}

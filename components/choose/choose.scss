@@ -1,0 +1,59 @@
+#chooseUs{
+	margin: 60px 0px;
+}
+
+#chooseUs__upDesc{
+	font-size: 18px;
+	text-align: center;
+}
+
+#chooseUs h1{
+	text-align: center;
+	font-size: 50px;
+	font-weight: 800;
+	color: rgb(74, 74, 74);
+	margin-bottom: 70px;
+}
+
+#chooseUs__blockIcons{
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	column-gap: 120px;
+	position: relative;
+}
+
+#blockIcons{
+	display: flex;
+	flex-direction: column;
+	row-gap: 10px;
+}
+
+#blockIcons img{
+	width: 70px;
+	height: 70px;
+	object-fit: cover;
+}
+
+#blockIcons::before{
+	content: '';
+  width: 14px;
+  height: 14px;
+  background-color: orange;
+  border-radius: 50%;
+	position: absolute;
+	top: 60px;
+	left: 70px;
+}
+
+#blockIcons__iconTitle{
+	margin-top: 30px;
+	font-size: 17px;
+	font-weight: 700;
+	color: rgb(74, 74, 74);
+}
+
+#blockIcons__iconDesc{
+	font-size: 15px;
+	color: rgb(74, 74, 74);
+}

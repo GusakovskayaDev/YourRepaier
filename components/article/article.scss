@@ -1,0 +1,74 @@
+.container__repairYourself{
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+	justify-content: center;
+
+	background-color: rgb(245, 245, 245);
+}
+
+#block__repairYourself{
+	display: flex;
+	flex-direction: row;
+	column-gap: 140px;
+
+	margin: 60px 0px;
+	max-width: 1400px;
+	width: 100%; 
+  overflow: auto;
+	padding: 0px 10px;
+}
+
+#leftSide__repairYourself{
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+	flex: 1;
+
+	padding: 10px 0px;
+}
+
+#rightSide__repairYourself img{
+	width: 500px;
+	height: 500px;
+	object-fit: cover;
+}
+
+#leftSide__repairYourself__upDesc{
+	font-size: 18px;
+}
+
+#leftSide__repairYourself__title{
+	width: 600px;
+	font-size: 50px;
+	font-weight: 800;
+	color: rgb(74, 74, 74);
+}
+
+#leftSide__repairYourself__desc{
+	font-size: 18px;
+	font-weight: 600;
+	margin: 25px 0px;
+}
+
+#leftSide__repairYourself__text{
+	font-size: 16px;
+	line-height: 27px;
+}
+
+#leftSide__repairYourself button{
+	border: 1px solid lightgray;
+	padding: 20px 40px;
+	background-color: transparent;
+	margin-top: 60px;
+	cursor: pointer;
+
+	font-size: 16px;
+	font-weight: 600;
+}
+
+#leftSide__repairYourself button:hover{
+	background-color: #FFC51F;
+	
+	box-shadow: 0 0 10px #FFC51F;
+}

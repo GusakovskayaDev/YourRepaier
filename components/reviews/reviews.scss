@@ -1,0 +1,91 @@
+.feedback{
+	margin: 80px 0px;
+}
+
+.feedback > p{
+	color: rgb(74, 74, 74);
+	font-size: 18px;
+	text-align: center;
+}
+
+.feedback > h1{
+	color: rgb(74, 74, 74);
+	font-size: 50px;
+	font-weight: 800;
+	margin-bottom: 40px;
+	text-align: center;
+}
+
+.allFeedbacks{
+	display: flex;
+	flex-direction: row;
+	column-gap: 30px;
+}
+
+.itemFeedback{
+	background-color: white;
+	display: flex;
+	flex-direction: column;
+	row-gap: 26px;
+	width: 700px;
+	padding: 40px;
+}
+
+.upper__unit{
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+}
+
+.upper__unit img:first-child {
+	width: 120px;
+	height: 120px;
+	object-fit: cover;
+	object-position: top;
+	border-radius: 50%;
+	border: 10px solid rgb(240, 240, 240);
+}
+
+.quotes{
+	width: 40px;
+	height: 40px;
+}
+
+.feedback__title{
+	font-size: 20px;
+	color: rgb(50,50,50);
+	font-weight: 700;
+}
+
+.feedback__desc{
+	line-height: 25px;
+	color: rgb(128,128,128);
+}
+
+.feedback__navigation{
+	display: flex;
+	justify-content: space-between;
+	margin: 20px 0px;
+	font-size: 40px;
+}
+
+.feedback__button{
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
+.feedback__button button{
+	background-color: #FFC51F;
+	border: 1px solid #FFC51F;
+	border-radius: 4px;
+	padding: 15px 30px;
+	cursor: pointer;
+	font-size: 15px;
+
+	margin-top: 25px;
+}
+
+.feedback__button button:hover{
+	box-shadow: 0 0 10px #FFC51F;
+}

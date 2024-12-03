@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Ремонт и отделка квартир и помещений</title>
+	<link rel="icon" href="src/favicon.ico" type="image/x-icon">
+	<!-- <link rel="stylesheet" href="main.css">
+	<link rel="stylesheet" href="styles/styles.css"> -->
+	<link rel="stylesheet" href="main.css">
+	<link rel="stylesheet" href="styles/main.css">
+
+	<!-- Шрифты -->
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+</head>
+
+<body>
+	<!-- Попап -->
+	<div id="getPopup"></div>
+	<!-- Шапка -->
+	<header id="header"></header>
+	<!-- Тело -->
+	<div id="banner" class="banner"></div>
+	<section id="scroll_services"></section>
+	<div id="services" class="allContainer"></div>
+	<section id="scroll_advertisement"></section>
+	<div id="advertisement" class="allContainer" style="background-color: var(--color-violet);"></div>
+	<div id="article" class="container__repairYourself"></div>
+	<div id="ageblock" class="allContainer" style="background-color: rgb(245, 245, 245);"></div>
+	<div id="choose" class="allContainer"></div>
+	<div id="doneprojects" class="allContainer" style="background-color: #704E5F;"></div>
+	<section id="reviews"></section>
+	<div id="reviews"></div>
+	<section id="contacts"></section>
+	<div id="form" class="allContainer"></div>
+	<!-- Подвал -->
+	<footer id="footer"></footer>
+
+<!-- <div class="services-container" id="servicesContainer"></div>
+	<button id="toggleButton" onclick="toggleServices()">Показать еще</button> -->
+
+<!-- <form name="submit-to-google-sheet">
+	<input name="email" type="email" placeholder="Email" required>
+	<button type="submit">Send</button>
+</form> -->
+
+<!-- <script>
+	const scriptURL = 'https://script.google.com/macros/s/AKfycbzKayDpBXkng2CdXXz5io5aFAQj5nLeqMgbYB7LqXv5xJGeze_zUKffJzScFQ42hd1V4w/exec'
+	const form = document.forms['submit-to-google-sheet']
+
+	form.addEventListener('submit', e => {
+		e.preventDefault()
+		fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+			.then(response => console.log('Success!', response))
+			.catch(error => console.error('Error!', error.message))
+	})
+</script> -->
+
+	<script src="https://kit.fontawesome.com/0fdd465e80.js" crossorigin="anonymous"></script>
+	<!-- <script src="scripts/accordeon.js"></script> -->
+
+	<script src="components/header/header.js"></script>
+	<script src="components/banner/banner.js"></script>
+	<script src="components/services/services.js"></script>
+	<script src="components/advertisement/advertisement.js"></script>
+	<script src="components/article/article.js"></script>
+	<script src="components/ageblock/ageblock.js"></script>
+	<script src="components/choose/choose.js"></script>
+	<script src="components/doneprojects/doneprojects.js"></script>
+	<script src="components/reviews/reviews.js"></script>
+	<script src="components/form/form.js"></script>
+	<script src="components/footer/footer.js"></script>
+
+</body>
+</html>

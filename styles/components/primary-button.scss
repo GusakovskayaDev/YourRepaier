@@ -1,0 +1,5 @@
+@use 'button__mixins';
+
+.primary__button {
+  @include button__mixins.button-style($background-color, black, 600);
+}

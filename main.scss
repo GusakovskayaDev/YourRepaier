@@ -1,0 +1,15 @@
+// @use 'styles/base/variables';
+// @use 'styles/components/primary-button';
+// @use 'styles/components/secondary-button';
+@use 'components/header/header.scss';
+@use 'components/banner/banner.scss';
+@use 'components/services/services.scss';
+@use 'components/advertisement/advertisement.scss';
+@use 'components/article/article.scss';
+@use 'components/ageblock/ageblock.scss';
+@use 'components/choose/choose.scss';
+@use 'components/doneprojects/doneprojects.scss';
+@use 'components/reviews/reviews.scss';
+@use 'components/form/form.scss';
+@use 'components/footer/footer.scss';
+@use 'components/popup/popup.scss';

@@ -1,0 +1,67 @@
+.whiteSquare{
+	background-color: white;
+	width: 660px;
+	height: 600px;
+	box-shadow: 0px 0px 10px lightgray;
+	position: relative;
+	padding: 40px;
+	margin-top: 50px;
+	margin-bottom: 100px;
+}
+
+#whiteSquare__fourteen{
+	font-size: 100px;
+	color: rgb(251, 114, 33);
+	font-weight: 800;
+}
+
+#cont__whiteSquare__desc{
+	display: flex;
+	flex-direction: row;
+	column-gap: 20px;
+	justify-content: center;
+	align-items: center;
+}
+
+#whiteSquare__desc{
+	display: inline;
+	font-weight: 500;
+	font-size: 15px;
+}
+
+#whiteSquare__icon{
+	width: 50px;
+	height: 50px;
+}
+
+#whiteSquare__secondDesc{
+	margin-top: 30px;
+	padding-left: 200px;
+	line-height: 24px;
+}
+
+#whiteSquare__button{
+	position: absolute;
+	right: 0px;
+	bottom: 0px;
+	margin: 30px;
+	background-color: #FFC51F;
+	border: 1px solid #FFC51F;
+	border-radius: 4px;
+	padding: 15px 30px;
+	cursor: pointer;
+	font-size: 15px;
+}
+
+#whiteSquare__button:hover{
+	box-shadow: 0 0 10px #FFC51F;
+}
+
+#whiteSquare__img{
+	width: 300px;
+	height: 300px;
+	object-fit: cover;
+	position: absolute;
+	left: -100px;
+	top: 246px;
+}

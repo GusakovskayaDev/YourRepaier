@@ -1,0 +1,127 @@
+@use '../../styles/variables.scss' as *;
+ 
+ header{
+	background-color: white;
+
+	position: fixed;
+	top: 0px;
+	left: 0px;
+	right: 0px;
+
+	height: 100px;
+
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	align-items: center;
+
+	padding: 10px 40px;
+
+	box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.15);
+
+	z-index: 100;
+}
+
+.logo{
+	display: flex;
+	column-gap: 20px;
+	width: 140px;
+	cursor: pointer;
+}
+
+.logo img{
+	width: 60px;
+}
+
+.title__logo{
+	font-weight: bold;
+	font-size: 20px;
+	margin-bottom: 6px;
+}
+
+.logo__desc{
+	font-size: 14px;
+	color: gray;
+	width: 190px;
+}
+
+a{
+	text-decoration: none;
+	color: black;
+}
+
+ul, li{
+	list-style: none;
+}
+
+.menu{
+	font-size: 14px;
+}
+
+.menu a{
+	color: gray;
+}
+
+.menu a:hover{
+	color: black;
+}
+
+#primary_nav_wrap ul{
+	position:relative;
+}
+
+#primary_nav_wrap ul li{
+	position:relative;
+}
+
+#primary_nav_wrap ul ul{
+	padding-top: 20px;
+	display:none;
+	position:absolute;
+	top: 100%;
+	background-color: white;
+	padding: 20px;
+}
+
+#primary_nav_wrap ul li:hover > ul
+{
+	display:block
+}
+
+#primary_nav_wrap ul ul li
+{
+	width:200px
+}
+
+#primary_nav_wrap ul ul a
+{
+	line-height:120%;
+	padding:0px 0px
+}
+
+#primary_nav_wrap ul ul li
+{
+	line-height:100%;
+	padding:6px 0px
+}
+
+.first__level{
+	display: flex;
+	flex-direction: row;
+	column-gap: 30px;
+	justify-content: space-between;
+	align-items: center;
+
+	position: relative;
+	font-weight: bold;
+}
+
+.phone{
+	cursor: pointer;
+}
+
+.phone a{
+	font-weight: bold;
+	font-size: 20px;
+	margin-left: 10px;
+} 
